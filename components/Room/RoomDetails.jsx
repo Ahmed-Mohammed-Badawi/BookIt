@@ -18,7 +18,7 @@ function RoomDetails() {
     useEffect(() => {
         toast.error(error);
         dispatch(ClearError());
-    }, [error]);
+    }, [error, dispatch]);
 
     return (
         <>
